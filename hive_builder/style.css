@@ -1,0 +1,43 @@
+.hive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#top-cover {
+  width: 185px;
+  height: 25px;
+  background-color: #686868;
+  border: 0.15rem solid black;
+}
+
+.brood {
+  width: 175px;
+  height: 100px;
+  background-color: #ce4c23;
+  border: 0.15rem solid black;
+}
+
+.honey-super {
+  width: 175px;
+  height: 50px;
+  background-color: #ce4c23;
+  border: 0.15rem solid black;
+}
+
+#base {
+  width: 200px;
+  height: 25px;
+  background-color: black;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 100%,
+    85% 100%,
+    75% 55%,
+    25% 55%,
+    15% 100%,
+    0% 100%
+  );
+}
